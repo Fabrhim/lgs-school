@@ -24,10 +24,16 @@ body {
 header {
     background: var(--blue);
     color: white;
-    padding: 20px;
+    padding: 30px 20px;
     text-align: center;
 }
 
+.logo {
+    width: 150px;
+    margin-bottom: 15px;
+}
+
+/* Navigation */
 nav {
     background: var(--darkblue);
     padding: 12px;
@@ -39,6 +45,7 @@ nav a {
     margin: 0 20px;
     text-decoration: none;
     font-weight: 600;
+    transition: 0.3s;
 }
 
 nav a:hover {
@@ -135,12 +142,20 @@ nav a:hover {
     text-align: center;
     padding: 30px 20px;
 }
+
+/* Mobile Responsive */
+@media(max-width: 768px) {
+    .hero h1 {
+        font-size: 30px;
+    }
+}
 </style>
 </head>
 
 <body>
 
 <header>
+    <img src="logo.jpg" alt="LGS Logo" class="logo">
     <h2>The Legend Grammar School (LGS)</h2>
     <p>Shinghai Road, Lahore</p>
 </header>
@@ -152,26 +167,22 @@ nav a:hover {
 </nav>
 
 <section class="hero">
-    <h1>ADMISSIONS OPEN 2026-2027</h1>
+    <h1>ADMISSIONS OPEN 2025-2026</h1>
     <p>Engineering a New Generation Through Quality Education</p>
     <a href="#contact" class="btn">APPLY NOW</a>
 </section>
 
 <section class="section">
-    <h2>Our vision</h2>
+    <h2>Our Belief</h2>
     <p>
-        At The Legend Grammar School, we focus on academic excellence, strong moral values, and building confident future leaders. We provide a nurturing environment where students are encouraged to discover their passions, cultivate curiosity, and develop the skills necessary to excel in a rapidly changing world. 
-        Through a combination of innovative teaching methods, extracurricular activities, and community engagement, students are guided to grow not just academically, but socially, emotionally, and ethically. Our aim is to inspire lifelong learning, foster resilience, and instill a strong sense of responsibility toward society. 
-        We believe that education is more than just acquiring knowledge—it is about shaping character, encouraging creativity, and empowering students to become compassionate, forward-thinking citizens who make meaningful contributions to the world around them.
+        At The Legend Grammar School, we focus on academic excellence, strong moral values, and building confident future leaders. We provide a nurturing environment where students are encouraged to discover their passions, cultivate curiosity, and develop the skills necessary to excel in a rapidly changing world.
     </p>
 </section>
 
 <section id="about" class="section">
     <h2>Welcome to LGS</h2>
     <p>
-        The Legend Grammar School is committed to nurturing well-rounded individuals whose academic prowess is matched by strong ethical foundations. Our curriculum emphasizes intellectual growth, critical thinking, and problem-solving while encouraging artistic expression, physical wellness, and leadership development. Each student receives personalized attention, ensuring that learning is both engaging and effective. 
-        We foster a culture of curiosity and innovation, where students are challenged to explore their potential, ask questions, and develop confidence in their abilities. Our dedicated educators serve as mentors, guiding each student to achieve excellence while instilling values of respect, empathy, and integrity. 
-        By combining rigorous academics with character-building initiatives and a supportive community, we aim to produce leaders who are not only knowledgeable but also socially responsible, morally grounded, and prepared to make a positive impact in their communities and beyond. Our vision is a school where every student feels empowered, inspired, and prepared to excel in all dimensions of life.
+        The Legend Grammar School is committed to nurturing well-rounded individuals whose academic prowess is matched by strong ethical foundations. Our curriculum emphasizes intellectual growth, critical thinking, and problem-solving while encouraging artistic expression, physical wellness, and leadership development.
     </p>
 </section>
 
